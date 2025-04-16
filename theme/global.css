@@ -1,0 +1,11 @@
+:root {
+    --ion-color-primary: #3d0000;
+    --ion-color-secondary: #d38285;
+    --ion-color-success: #d36f00;
+// etc.
+}
+
+ion-button {
+    --background: var(--ion-color-primary);
+    border-radius: 8px;
+}
