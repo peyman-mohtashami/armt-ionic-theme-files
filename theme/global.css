@@ -2,10 +2,28 @@
     --ion-color-primary: #3d0000;
     --ion-color-secondary: #d38285;
     --ion-color-success: #d36f00;
-// etc.
 }
 
 ion-button {
     --background: var(--ion-color-primary);
     border-radius: 8px;
+}
+
+
+ion-button.button-solid {
+    --padding-top: 8px;
+    --padding-bottom: 8px;
+    --padding-start: 32px;
+    --padding-end: 32px;
+    height: 45px;
+    --border-color: white;
+    --border-width: 2px;
+    --border-style: solid;
+    --border-radius: 45px;
+    --background: #456789;
+    --box-shadow: none;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 1.35em;
+    --ripple-color: transparent;
 }
